@@ -9,7 +9,7 @@ on:
       - 'settings.gradle.kts'
       - 'Dockerfile'
     branches:
-      - main
+      - master
 
 env:
   DOCKER_IMAGE_NAME: app2 # 공통으로 설정해도 됨 (하지만 output도 병행)
