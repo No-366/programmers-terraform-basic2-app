@@ -2,6 +2,9 @@ server:
   port: 8080
 
 spring:
+  data:
+    redis:
+      port: 36379 # ?? ?? ?? ????
   application:
     name: terraform_app2
   profiles:
